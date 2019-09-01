@@ -17,19 +17,32 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.nanorefri.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
-        <activity
-            android:name="com.nanorefri.validacaopagamento.ValidacaoPagamento"
-            android:label="@string/title_activity_validacao_pagamento" >
-            <intent-filter>
+         <activity
+            android:name="com.nanorefri.AmountActivity"
+            android:label="@string/app_name">
+             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
-            android:name=".SplashScreen"
+            android:name="com.nanorefri.FlavorActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+             
+        </activity>
+        <activity
+            android:name="com.nanorefri.validacaopagamento.ValidacaoPagamento"
+            android:label="@string/title_activity_validacao_pagamento" >
+          
+        </activity>
+        <activity
+            android:name="com.nanorefri.SplashScreen"
             android:label="@string/title_activity_splash_screen" >
         </activity>
     </application>
