@@ -23,7 +23,10 @@
          <activity
             android:name="com.nanorefri.AmountActivity"
             android:label="@string/app_name">
+<<<<<<< HEAD
             
+=======
+>>>>>>> 6dcad5740030311801184a123c6811925ee6ef08
         </activity>
         
         <activity
@@ -40,7 +43,15 @@
         <activity
             android:name="com.nanorefri.validacaopagamento.ValidacaoPagamento"
             android:label="@string/title_activity_validacao_pagamento" >
+<<<<<<< HEAD
             
+=======
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> 6dcad5740030311801184a123c6811925ee6ef08
           
         </activity>
         <activity
