@@ -11,6 +11,7 @@ import com.example.nanorefri.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.util.Log;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
@@ -49,6 +50,8 @@ public class ValidacaoPagamento extends Activity {
 				@Override
 				public void onResponse(Call call, final Response response) throws IOException {
 					// TODO Auto-generated method stub
+					Log.i("TESTE", response.body().string());
+					
 					if (response.isSuccessful()) {
 						
 						ValidacaoPagamento.this.runOnUiThread(new Runnable() {

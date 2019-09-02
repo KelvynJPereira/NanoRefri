@@ -5,9 +5,7 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry kind="lib" path="lib/okhttp-3.9.0.jar"/>
-	<classpathentry kind="lib" path="lib/okio-1.13.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OkHttp"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Okio"/>
+	<classpathentry exported="true" kind="lib" path="lib/okhttp-3.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/okio-1.13.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
