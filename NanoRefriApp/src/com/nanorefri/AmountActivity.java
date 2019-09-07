@@ -4,6 +4,7 @@ import com.example.nanorefri.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 
@@ -18,8 +19,9 @@ public class AmountActivity extends Activity {
 		
 		SodaOrder order = (SodaOrder) getIntent().getSerializableExtra("orderFlavorSelected");
 		
-		teste = (TextView) findViewById(R.id.textView1);
+		teste = (TextView) findViewById(R.id.textView_flavor);
 		teste.setText(order.getFlavor());
+		
 		
 	
 	}

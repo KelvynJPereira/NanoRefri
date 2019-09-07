@@ -31,7 +31,7 @@ public class FlavorActivity extends Activity {
 				
 			case R.id.imageButton1:
 				
-				order.setFlavor("Guaraná");
+				order.setFlavor("Guaraná Antartica");
 				amountScreen(order);
 				break;
 			
