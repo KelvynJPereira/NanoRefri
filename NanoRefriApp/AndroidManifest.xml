@@ -39,7 +39,7 @@
              
         </activity>
         <activity
-            android:name="com.nanorefri.validacaopagamento.ValidacaoPagamento"
+            android:name="com.nanorefri.payment.Payment"
             android:label="@string/title_activity_validacao_pagamento" >
             
           
