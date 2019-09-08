@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class AmountActivity extends Activity {
 	
 	TextView orderInProcess;
+	private SodaOrder order;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class AmountActivity extends Activity {
 		setContentView(R.layout.activity_select_amount);
 		
 		// Recuperacao de dados do pedido
-		SodaOrder order = (SodaOrder) getIntent().getSerializableExtra("orderFlavorSelected");
+		order = (SodaOrder) getIntent().getSerializableExtra("orderFlavorSelected");
 		
 		// Exibicao de informacoes do pedido selecionado 
 		orderInProcess = (TextView) findViewById(R.id.textView_flavor);
@@ -39,17 +40,6 @@ public class AmountActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
-				
-				/*
-				 * ==========================================
-				 * 
-				 *          BUG
-				 *          
-				 *  =========================================
-				 *  
-				 *  Nao é possível chamar o objeto fora do onCreate
-				 */
 				
 				// Escolha de porcao 
 				switch (v.getId()) {

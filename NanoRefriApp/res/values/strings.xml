@@ -2,9 +2,9 @@
 <resources>
 
     <string name="app_name">NanoRefri</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_validacao_pagamento">ValidacaoPagamento</string>
+     <string name="hello_world">Hello word!</string>
+    <string name="title_activity_validacao_pagamento">PaymentValidation</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
 
 </resources>

@@ -42,7 +42,7 @@ public class Payment extends Activity {
 		
 	}
 	
-	public void validationPayment() {
+	public void paymentValidation() {
 		
 		try {
 			
